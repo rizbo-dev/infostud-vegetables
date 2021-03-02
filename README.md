@@ -4,7 +4,9 @@ Prvi projekat
 Baza:
 
 ime baze:pijaca,
-user:rooot,
+
+user:root,
+
 pass: nema :)
 
 id(int) primary key,
