@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 2.5rem;
+    padding: 5rem;
+    background: #91ff4f;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease all;
+    padding: 2rem 4rem;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    background: #ffd94f;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background: rgba(125,255,125,0.5);
+    min-height: 50vh;
+    position: relative;
+}
+.intro-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 10rem
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-item{
+    flex: 1 1 30rem;
+    text-align: center;
+    padding: 2rem;
+}
+.image-card{
+    width: 100%;
+    padding: 1rem;
+}
+.image-card img{
+    width: 200px;
+    height: 200px;
+    transition: all 0.3s ease-in-out;
+}
+.image-card img:hover {
+    box-shadow: rgb(255, 188, 43) 0px 0px 0px 3px;
+}
+.product-name {
+    font-size: 3rem;
+    font-weight: normal;
+}
+.product-price{
+    font-size: 2rem;
+}
+.formSearch{
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+
+}
+.formSearch label,.formAdd label {
+    font-size: 2.5rem;
+}
+.formSearch label input , .formAdd label input{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.formSearch button , .formAdd button{
+    background: #b8b835;
+    border: none;
+    padding: 2rem 5rem;
+    cursor: pointer;
+}
+.formSearch button:hover,
+.formAdd button:hover{
+    background: #67b835;
+}
+.formAdd {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 50rem;
+}
+#image {
+    display: none;
+}
+.select-image{
+    cursor: pointer;
+    padding: 3rem 1rem;
+    background: #67b835;
+}
+.select-image:hover {
+    background: #ffd94f;
+}
+.error-text {
+    text-align: center;
+    padding: 3rem;
+}
+.inserted-text {
+    text-align: center;
+    padding: 3rem;
+    color: #303091;
+}
